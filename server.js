@@ -17,6 +17,7 @@ mongoose.connect("mongodb+srv://panneerycse2022_db_user:Lo3FMmxKxezMZMCk@cluster
 
 // Booking schema
 
+
 const bookingSchema = new mongoose.Schema({
     name: String,
     email: String,
